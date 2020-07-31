@@ -1,9 +1,5 @@
 # simplepos
 
-## Project 
-```
-vue+view-design 各种配置练习
-```
 ## Project setup
 ```
 npm install
