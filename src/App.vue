@@ -1,10 +1,18 @@
 <template>
   <div id="app">
-      
+      <leftNav></leftNav>
     <router-view/>
   </div>
 </template>
 
+<script>
+import leftNav from './components/common/leftNav'
+export default {
+    components:{
+      leftNav
+    }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
